@@ -13,7 +13,7 @@ A simple CLI tool that creates `.desktop` files for Linux applications and links
 Requires Go 1.18 or later.
 
 ```sh
-go install github.com/your-username/mkdeskf@latest
+go install github.com/Jawhar-Hakim/mkdeskf@latest
 ```
 
 The binary is placed in `~/go/bin/`. Make sure that directory is on your `$PATH`:
@@ -26,7 +26,7 @@ source ~/.bashrc
 ### Build from source
 
 ```sh
-git clone https://github.com/your-username/mkdeskf
+git clone https://github.com/Jawhar-Hakim/mkdeskf
 cd mkdeskf
 go build -o mkdeskf .
 mv mkdeskf ~/.local/bin/
@@ -138,6 +138,3 @@ Proceed with this location? [Y/N]: y
 Done!
 ```
 
-## License
-
-See [LICENSE](LICENSE).
